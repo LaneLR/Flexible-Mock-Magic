@@ -80,13 +80,14 @@ footer img {
 .image-container{
     height: 30vh;
     width: 20vw;
-    background-color: #505FF9;
+    background-color: #fafafc;
     margin: 2rem;
-    color: #fff;
+    color: #090101;
     border: solid black 1px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 footer {
@@ -96,5 +97,9 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+.image-container img{
+    max-width: 150px;
+    max-height: 150px;
 
+}
 /* CODE YOUR FLEXBOXES HERE */
